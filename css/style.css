@@ -210,3 +210,43 @@ main {
     margin: 50px 0 70px 0;
   }
   /* Resume Styles Ends */
+  /* Footer Section Starts */
+footer {
+    max-width: 1140px auto;
+    display: flex;
+    justify-content: space-around;
+    background: #fff8f3;
+    padding: 100px 150px;
+    gap: 80px;
+  }
+  .section-description {
+    text-align: justify;
+  }
+  .cotact-img img{
+    margin-right: 20px;
+  }
+  .message input[type="text"],
+  .message input[type="email"],
+  textarea {
+    display: block;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 0;
+    width: 100%;
+    resize:  none;
+  }
+  .submit-btn {
+    background-color: var(--orange-color);
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+  }
+  /* Footer Section Ends */
+  
